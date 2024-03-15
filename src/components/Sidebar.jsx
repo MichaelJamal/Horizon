@@ -3,6 +3,7 @@ import React from 'react';
 import { IoIosClose } from 'react-icons/io';
 
 const Sidebar = ({ isOpen, toggle }) => {
+  const logo = require("../images/logoside.png");
   return (
     <div className={`fixed top-0 left-0 w-80 h-full bg-white text-black transition-transform duration-300 ease-in-out transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} 
     
@@ -13,7 +14,9 @@ const Sidebar = ({ isOpen, toggle }) => {
 
 <div>
 <h6>
-    <a href="" className=" text-black">Transportio</a>
+    <a href='/' className="text-black">
+    <img className='w-46 h-36' src={logo} alt="" />
+    </a>
 </h6>
 </div>
 

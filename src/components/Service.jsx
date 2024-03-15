@@ -30,10 +30,10 @@ const cargof = require("../images/service-icon-6.png");
               <p className="card-text">
                 Our aim is to optimize and improve your supply chain so that we can give you the best service.
               </p>
-              <a href="#" className="btn-link">
+              <button className="btn-link">
                 <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
                 <span className="span">View Detail</span>
-              </a>
+              </button>
             </div>
           </li>
           <li>
@@ -47,10 +47,10 @@ const cargof = require("../images/service-icon-6.png");
               <p className="card-text">
                 Our aim is to optimize and improve your supply chain so that we can give you the best service.
               </p>
-              <a href="#" className="btn-link">
+              <button className="btn-link">
                 <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
                 <span className="span">View Detail</span>
-              </a>
+              </button>
             </div>
           </li>
           <li>
@@ -64,10 +64,10 @@ const cargof = require("../images/service-icon-6.png");
               <p className="card-text">
                 Our aim is to optimize and improve your supply chain so that we can give you the best service.
               </p>
-              <a href="#" className="btn-link">
+              <button className="btn-link">
                 <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
                 <span className="span">View Detail</span>
-              </a>
+              </button>
             </div>
           </li>
           <li>
@@ -81,10 +81,10 @@ const cargof = require("../images/service-icon-6.png");
               <p className="card-text">
                 Our aim is to optimize and improve your supply chain so that we can give you the best service.
               </p>
-              <a href="#" className="btn-link">
+              <button className="btn-link">
                 <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
                 <span className="span">View Detail</span>
-              </a>
+              </button>
             </div>
           </li>
           <li>
@@ -98,10 +98,10 @@ const cargof = require("../images/service-icon-6.png");
               <p className="card-text">
                 Our aim is to optimize and improve your supply chain so that we can give you the best service.
               </p>
-              <a href="#" className="btn-link">
+              <button className="btn-link">
                 <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
                 <span className="span">View Detail</span>
-              </a>
+              </button>
             </div>
           </li>
           <li>
@@ -115,10 +115,10 @@ const cargof = require("../images/service-icon-6.png");
               <p className="card-text">
                 Our aim is to optimize and improve your supply chain so that we can give you the best service.
               </p>
-              <a href="#" className="btn-link">
+              <button className="btn-link">
                 <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
                 <span className="span">View Detail</span>
-              </a>
+              </button>
             </div>
           </li>
         </ul>

@@ -35,7 +35,7 @@ const About = () => {
 
           </ul>
 
-          <a href="#" className="btn">Learn More</a>
+          <button className="btn">Learn More</button>
 
         </div>
 

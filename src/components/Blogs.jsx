@@ -1,6 +1,7 @@
 import { IonIcon } from '@ionic/react';
 import React from 'react'
 
+
 export const Blogs = () => {
     const blogImage1 = require("../images/blog-1.jpg");
     const blogImage2 = require("../images/blog-2.jpg");
@@ -38,10 +39,10 @@ export const Blogs = () => {
                   </time>
 
                   <h3 class="h3 card-title">
-                    <a href="#">
+                    <button>
                       At the end of the day, going forward, a new normal that has evolved from. your only logistic
                       partner.
-                    </a>
+                    </button>
                   </h3>
 
                   <p class="card-text">
@@ -76,10 +77,10 @@ export const Blogs = () => {
                   </time>
 
                   <h3 class="h3 card-title">
-                    <a href="#">
+                    <button>
                       Going forward, a new normal that has evolved from generation. moving your products across all
                       borders.
-                    </a>
+                    </button>
                   </h3>
 
                   <p class="card-text">
@@ -88,11 +89,11 @@ export const Blogs = () => {
                     dummy text ever since the when an printer.
                   </p>
 
-                  <a href="#" class="btn-link">
+                  <button class="btn-link">
                     <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
 
                     <span class="span">Read More</span>
-                  </a>
+                  </button>
 
                 </div>
 

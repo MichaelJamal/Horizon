@@ -17,7 +17,7 @@ const Features = () => {
               since the when an printer took.
             </p>
           </div>
-          <a href="#" className="btn">Read More</a>
+          <button className="btn">Read More</button>
         </div>
         <ul className="feature-list grid-list">
           <li>
@@ -29,9 +29,9 @@ const Features = () => {
               <p className="card-text">
                 Our aim is to optimize and improve your supply chain so that we can give you the best service
               </p>
-              <a href="#" className="card-btn" aria-label="Read more">
+              <button  className="card-btn" aria-label="Read more">
                 <ion-icon name="arrow-forward"></ion-icon>
-              </a>
+              </button>
             </div>
           </li>
           <li>
@@ -44,9 +44,9 @@ const Features = () => {
                 We provide multiple drop off and pickup locations so you don't have to worry. And you should not face
                 any kind...
               </p>
-              <a href="#" className="card-btn" aria-label="Read more">
+              <button  className="card-btn" aria-label="Read more">
                 <ion-icon name="arrow-forward"></ion-icon>
-              </a>
+              </button>
             </div>
           </li>
           <li>
@@ -59,9 +59,9 @@ const Features = () => {
                 A tracking number for the entire process. so that you can find the exact position. this process will
                 help you
               </p>
-              <a href="#" className="card-btn" aria-label="Read more">
+              <button className="card-btn" aria-label="Read more">
                 <ion-icon name="arrow-forward"></ion-icon>
-              </a>
+              </button>
             </div>
           </li>
         </ul>

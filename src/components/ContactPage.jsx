@@ -1,17 +1,10 @@
-import { useState } from 'react';
-import { BsGithub, BsLinkedin, BsPerson, BsTwitter } from 'react-icons/bs';
-import { MdEmail, MdOutlineEmail } from 'react-icons/md';
+import { BsPerson } from 'react-icons/bs';
+import { MdOutlineEmail } from 'react-icons/md';
 
 const ContactPage = () => {
-  const [hasCopied, setHasCopied] = useState(false);
+  
 
-  const onCopy = () => {
-    // Functionality for copying email
-    setHasCopied(true);
-    setTimeout(() => {
-      setHasCopied(false);
-    }, 2000);
-  };
+  
 
   return (
     <div className="bg-gray-100 py-36 flex items-center justify-center bg-fixed" id="contact">

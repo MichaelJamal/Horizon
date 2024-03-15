@@ -38,10 +38,10 @@ const Projects = () => {
               <p className="card-tag">Warehousing , Distrbution</p>
 
               <h3 className="h3">
-                <a href="#" className="card-title">Warehouse inventory</a>
+                <button className="card-title">Warehouse inventory</button>
               </h3>
 
-              <a href="#" className="card-link">Read More</a>
+              <button  className="card-link">Read More</button>
             </div>
 
           </div>
@@ -59,10 +59,10 @@ const Projects = () => {
               <p className="card-tag">Logistics, Analytics</p>
 
               <h3 className="h3">
-                <a href="#" className="card-title">Minimize Manufacturing</a>
+                <button className="card-title">Minimize Manufacturing</button>
               </h3>
 
-              <a href="#" className="card-link">Read More</a>
+              <button className="card-link">Read More</button>
             </div>
 
           </div>
@@ -82,10 +82,10 @@ const Projects = () => {
               <p className="card-tag">Warehousing , Distrbution</p>
 
               <h3 className="h3">
-                <a href="#" className="card-title">Warehouse inventory</a>
+                <button className="card-title">Warehouse inventory</button>
               </h3>
 
-              <a href="#" className="card-link">Read More</a>
+              <button className="card-link">Read More</button>
             </div>
 
           </div>
@@ -105,10 +105,10 @@ const Projects = () => {
               <p className="card-tag">Logistics, Analytics</p>
 
               <h3 className="h3">
-                <a href="#" className="card-title">Minimize Manufacturing</a>
+                <button className="card-title">Minimize Manufacturing</button>
               </h3>
 
-              <a href="#" className="card-link">Read More</a>
+              <button className="card-link">Read More</button>
             </div>
 
           </div>
@@ -128,10 +128,10 @@ const Projects = () => {
               <p className="card-tag">Warehousing , Distrbution</p>
 
               <h3 className="h3">
-                <a href="#" className="card-title">Warehouse inventory</a>
+                <button className="card-title">Warehouse inventory</button>
               </h3>
 
-              <a href="#" className="card-link">Read More</a>
+              <button className="card-link">Read More</button>
             </div>
 
           </div>
@@ -150,10 +150,10 @@ const Projects = () => {
               <p className="card-tag">Logistics, Analytics</p>
 
               <h3 className="h3">
-                <a href="#" className="card-title">Minimize Manufacturing</a>
+                <button className="card-title">Minimize Manufacturing</button>
               </h3>
 
-              <a href="#" className="card-link">Read More</a>
+              <button className="card-link">Read More</button>
             </div>
 
           </div>

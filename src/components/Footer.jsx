@@ -10,9 +10,9 @@ const Footer = () => {
 
         <div className="footer-brand">
 
-          <a href="#" className="logo">
+          <button href="/" className="logo">
           <img className='w-56 h-60' src={logo} alt="" />
-          </a>
+          </button>
 
           <p className="footer-text">
             Many desktop publishing packages and web page editors now use are dolra Ipsum as their default.
@@ -21,27 +21,27 @@ const Footer = () => {
           <ul className="social-list">
 
             <li>
-              <a href="#" className="social-link">
+              <button href="#" className="social-link">
                 <ion-icon name="logo-facebook"></ion-icon>
-              </a>
+              </button>
             </li>
 
             <li>
-              <a href="#" className="social-link">
+              <button href="#" className="social-link">
                 <ion-icon name="logo-twitter"></ion-icon>
-              </a>
+              </button>
             </li>
 
             <li>
-              <a href="#" className="social-link">
+              <button href="#" className="social-link">
                 <ion-icon name="logo-instagram"></ion-icon>
-              </a>
+              </button>
             </li>
 
             <li>
-              <a href="#" className="social-link">
+              <button href="#" className="social-link">
                 <ion-icon name="logo-youtube"></ion-icon>
-              </a>
+              </button>
             </li>
 
           </ul> */}
@@ -55,23 +55,23 @@ const Footer = () => {
           </li>
 
           <li>
-            <a href="#" className="footer-link">About</a>
+            <button  className="footer-link">About</button>
           </li>
 
           <li>
-            <a href="#" className="footer-link">Services</a>
+            <button  className="footer-link">Services</button>
           </li>
 
           <li>
-            <a href="#" className="footer-link">Blog</a>
+            <button className="footer-link">Blog</button>
           </li>
 
           <li>
-            <a href="#" className="footer-link">FAQ</a>
+            <button className="footer-link">FAQ</button>
           </li>
 
           <li>
-            <a href="#" className="footer-link">Contact Us</a>
+            <button className="footer-link">Contact Us</button>
           </li>
 
         </ul>
@@ -83,23 +83,23 @@ const Footer = () => {
           </li>
 
           <li>
-            <a href="#" className="footer-link">Warehouse</a>
+            <button  className="footer-link">Warehouse</button>
           </li>
 
           <li>
-            <a href="#" className="footer-link">Air Freight</a>
+            <button  className="footer-link">Air Freight</button>
           </li>
 
           <li>
-            <a href="#" className="footer-link">Ocean Freight</a>
+            <button className="footer-link">Ocean Freight</button>
           </li>
 
           <li>
-            <a href="#" className="footer-link">Road Freight</a>
+            <button className="footer-link">Road Freight</button>
           </li>
 
           <li>
-            <a href="#" className="footer-link">Packaging</a>
+            <button className="footer-link">Packaging</button>
           </li>
 
         </ul>
@@ -111,23 +111,23 @@ const Footer = () => {
           </li>
 
           <li>
-            <a href="#" className="footer-link">Business Consulting</a>
+            <button  className="footer-link">Business Consulting</button>
           </li>
 
           <li>
-            <a href="#" className="footer-link">Testimonials</a>
+            <button className="footer-link">Testimonials</button>
           </li>
 
           <li>
-            <a href="#" className="footer-link">Track Your Shipment</a>
+            <button  className="footer-link">Track Your Shipment</button>
           </li>
 
           <li>
-            <a href="#" className="footer-link">Privacy Policy</a>
+            <button className="footer-link">Privacy Policy</button>
           </li>
 
           <li>
-            <a href="#" className="footer-link">Terms & Condition</a>
+            <button  className="footer-link">Terms & Condition</button>
           </li>
 
         </ul>
@@ -136,7 +136,7 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <p className="copyright">
-          2024 &copy; - all rights reserved<a className="copyright-link"></a>
+          2024 &copy; - all rights reserved<button className="copyright-link"></button>
         </p>
       </div>
 
