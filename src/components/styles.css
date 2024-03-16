@@ -1313,3 +1313,26 @@
     .footer-top { padding-block: 60px; }
   
   }
+
+  @media (min-width: 100px) {
+  
+    /**
+     * CUSTOM PROPERTY
+     */
+  
+    :root {
+  
+      /**
+       * typography
+       */
+  
+      /* --fs-4: 4.5rem; */
+  
+      /**
+       * spacing
+       */
+  
+      --section-padding: 80px;
+  
+    }
+  }
