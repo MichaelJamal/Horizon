@@ -13,7 +13,7 @@ export const Hero = () => {
           <p className="hero-text">
           Welcome to Horizon Express - Your Trusted Logistics Partner!
           </p>
-          <button className="btn-outline">View Services</button> 
+          <a href='/#service' className="btn-outline">View Services</a> 
           <img src={heroImage} width="116" height="116" loading="lazy" className="hero-shape shape-1" alt="shape 1" />
           <img src={heroImage} width="116" height="116" loading="lazy" className="hero-shape shape-2" alt="shape 2" />
         </div>
