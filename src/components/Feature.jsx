@@ -45,9 +45,9 @@ const Features = () => {
                 We provide multiple drop off and pickup locations so you don't have to worry. And you should not face
                 any kind...
               </p>
-              <a  className="card-btn" aria-label="Read more">
+              <button  className="card-btn" aria-label="Read more">
               <IoIosArrowRoundForward />
-              </a>
+              </button>
             </div>
           </li>
           <li>
