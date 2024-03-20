@@ -288,7 +288,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding-block: 15px;
+    padding-block: 10px;
     z-index: 4;
     transition: var(--transition);
   }
@@ -1108,6 +1108,10 @@
     .section-text {
       max-width: 70ch;
       margin-inline: auto;
+    }
+    .section-text2 {
+      max-width: 70ch;
+      /* margin-inline: auto; */
     }
   
     .grid-list { grid-template-columns: repeat(3, 1fr); }

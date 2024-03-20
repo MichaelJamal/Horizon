@@ -17,9 +17,7 @@ const Projects = () => {
       <h2 className="h2 section-title">Featured Projects</h2>
 
       <p className="section-text">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry the standard dummy text ever since
-        the when an
-        printer took.
+      Explore Horizon Express' showcase of standout projects, exemplifying our expertise in tackling complex logistical challenges and delivering innovative solutions that drive success for our clients worldwide.
       </p>
 
       <ul className="project-list">
@@ -35,10 +33,10 @@ const Projects = () => {
            
 
             <div className="card-content">
-              <p className="card-tag">Warehousing , Distrbution</p>
+              <p className="card-tag">Global Freight Forwarding Services</p>
 
               <h3 className="h3">
-                <button className="card-title">Warehouse inventory</button>
+                <button className="card-title">Import and Export Logistics</button>
               </h3>
 
               <button  className="card-link">Read More</button>
@@ -79,10 +77,10 @@ const Projects = () => {
             
 
             <div className="card-content">
-              <p className="card-tag">Warehousing , Distrbution</p>
+              <p className="card-tag">Advanced Warehousing Solutions</p>
 
               <h3 className="h3">
-                <button className="card-title">Warehouse inventory</button>
+                <button className="card-title">Heavy Lift Transportation</button>
               </h3>
 
               <button className="card-link">Read More</button>
@@ -102,7 +100,7 @@ const Projects = () => {
            
 
             <div className="card-content">
-              <p className="card-tag">Logistics, Analytics</p>
+              <p className="card-tag">Intermodal Transport Services</p>
 
               <h3 className="h3">
                 <button className="card-title">Minimize Manufacturing</button>
@@ -125,10 +123,10 @@ const Projects = () => {
          
 
             <div className="card-content">
-              <p className="card-tag">Warehousing , Distrbution</p>
+              <p className="card-tag">Rail Transport for Bulk Cargo Delivery Across Continents</p>
 
               <h3 className="h3">
-                <button className="card-title">Warehouse inventory</button>
+                <button className="card-title">Oversized Cargo Management</button>
               </h3>
 
               <button className="card-link">Read More</button>
@@ -150,7 +148,7 @@ const Projects = () => {
               <p className="card-tag">Logistics, Analytics</p>
 
               <h3 className="h3">
-                <button className="card-title">Minimize Manufacturing</button>
+                <button className="card-title">Last-Mile Delivery Services for Urban Logistics Optimization</button>
               </h3>
 
               <button className="card-link">Read More</button>

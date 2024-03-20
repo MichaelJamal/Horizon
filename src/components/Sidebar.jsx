@@ -22,7 +22,7 @@ const Sidebar = ({ isOpen, toggle }) => {
 
     <div>
     <button className='mx-auto px-4 pt-2 ' onClick={toggle}>
-     <IoIosClose className='' />
+     <IoIosClose className='text-5xl' />
     </button>
     </div>
     </div>
@@ -31,33 +31,38 @@ const Sidebar = ({ isOpen, toggle }) => {
 
     <ul className="navbar-list">
             <li className="navbar-item">
-              <a href="#home" className="navbar-link" data-nav-link>
+              <a href="/" className="navbar-link" data-nav-link>
                 <span>Home</span>
                 <ion-icon name="chevron-forward"></ion-icon>
               </a>
             </li>
             <li className="navbar-item">
-              <a href="#about" className="navbar-link" data-nav-link>
+              <a href="/about" className="navbar-link" data-nav-link>
                 <span>About</span>
                 <ion-icon name="chevron-forward"></ion-icon>
               </a>
             </li>
+       
             <li className="navbar-item">
-              <a href="#service" className="navbar-link" data-nav-link>
-                <span>Service</span>
+              <a href="/blogpage" className="navbar-link" data-nav-link>
+                <span>Blog</span>
                 <ion-icon name="chevron-forward"></ion-icon>
               </a>
             </li>
             <li className="navbar-item">
-              <a href="#blog" className="navbar-link" data-nav-link>
-                <span>Blog</span>
+              <a href="/track" className="navbar-link" data-nav-link>
+                <span>Track</span>
                 <ion-icon name="chevron-forward"></ion-icon>
               </a>
             </li>
             <li className="navbar-item">
               <a href="/contactpage" className="navbar-link" data-nav-link>
                 <span>Contact Us</span>
-                <ion-icon name="chevron-forward"></ion-icon>
+              </a>
+            </li>
+            <li className="navbar-item">
+              <a href="213 817 5814" className="navbar-link" data-nav-link>
+                <span>Call: 213 817 5814</span>
               </a>
             </li>
           </ul>

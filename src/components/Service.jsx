@@ -15,8 +15,7 @@ const cargof = require("../images/service-icon-6.png");
         <p className="section-subtitle">All Services</p>
         <h2 className="h2 section-title">Trusted For Our Services</h2>
         <p className="section-text">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry the standard dummy text ever since
-          the when an printer took.
+        Explore our comprehensive range of services including freight forwarding, warehousing, customs clearance, and distribution.
         </p>
         <ul className="service-list grid-list">
           <li>
@@ -28,12 +27,12 @@ const cargof = require("../images/service-icon-6.png");
                 <span className="span">01</span> Air Freight
               </h3>
               <p className="card-text">
-                Our aim is to optimize and improve your supply chain so that we can give you the best service.
+              Reliable air freight forwarding ensures swift delivery, leveraging our aviation expertise and global network for seamless logistics execution and exceptional service.
               </p>
-              <button className="btn-link">
+              {/* <button className="btn-link">
                 <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
                 <span className="span">View Detail</span>
-              </button>
+              </button> */}
             </div>
           </li>
           <li>
@@ -45,12 +44,12 @@ const cargof = require("../images/service-icon-6.png");
                 <span className="span">02</span> Road Freight
               </h3>
               <p className="card-text">
-                Our aim is to optimize and improve your supply chain so that we can give you the best service.
+              Dependable road freight solutions ensure timely delivery, utilizing our industry expertise and extensive network for seamless logistics execution and outstanding service.
               </p>
-              <button className="btn-link">
+              {/* <button className="btn-link">
                 <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
                 <span className="span">View Detail</span>
-              </button>
+              </button> */}
             </div>
           </li>
           <li>
@@ -62,12 +61,12 @@ const cargof = require("../images/service-icon-6.png");
                 <span className="span">03</span> Ocean Freight
               </h3>
               <p className="card-text">
-                Our aim is to optimize and improve your supply chain so that we can give you the best service.
+              Secure ocean freight solutions ensure timely delivery, utilizing our maritime expertise and global network for seamless logistics execution and exceptional service.
               </p>
-              <button className="btn-link">
+              {/* <button className="btn-link">
                 <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
                 <span className="span">View Detail</span>
-              </button>
+              </button> */}
             </div>
           </li>
           <li>
@@ -79,12 +78,12 @@ const cargof = require("../images/service-icon-6.png");
                 <span className="span">04</span> Rail Freight
               </h3>
               <p className="card-text">
-                Our aim is to optimize and improve your supply chain so that we can give you the best service.
+              Efficient rail freight solutions ensure timely delivery, leveraging our rail expertise and extensive network for seamless logistics execution and exceptional service.
               </p>
-              <button className="btn-link">
+              {/* <button className="btn-link">
                 <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
                 <span className="span">View Detail</span>
-              </button>
+              </button> */}
             </div>
           </li>
           <li>
@@ -96,12 +95,12 @@ const cargof = require("../images/service-icon-6.png");
                 <span className="span">05</span> Warehousing
               </h3>
               <p className="card-text">
-                Our aim is to optimize and improve your supply chain so that we can give you the best service.
+              Optimized warehousing solutions ensure efficient storage, leveraging our expertise and state-of-the-art facilities for seamless inventory management and exceptional service.
               </p>
-              <button className="btn-link">
+              {/* <button className="btn-link">
                 <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
                 <span className="span">View Detail</span>
-              </button>
+              </button> */}
             </div>
           </li>
           <li>
@@ -113,12 +112,12 @@ const cargof = require("../images/service-icon-6.png");
                 <span className="span">06</span> Project Cargo
               </h3>
               <p className="card-text">
-                Our aim is to optimize and improve your supply chain so that we can give you the best service.
+              Specialized project cargo solutions ensure safe handling, leveraging our expertise and global network for seamless logistics execution and exceptional service.
               </p>
-              <button className="btn-link">
+              {/* <button className="btn-link">
                 <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
                 <span className="span">View Detail</span>
-              </button>
+              </button> */}
             </div>
           </li>
         </ul>

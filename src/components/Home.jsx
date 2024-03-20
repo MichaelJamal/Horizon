@@ -4,7 +4,7 @@ import { Hero } from './Hero';
 import About from './About';
 import Service from './Service';
 import Features from './Feature';
-import Projects from './Projects';
+// import Projects from './Projects';
 import { Blogs } from './Blogs';
 import NewsLetter from './NewsLetter';
 // import Footer from './Footer';
@@ -22,7 +22,7 @@ function Home() {
         <About />
         <Service />
         <Features />
-        <Projects />
+        {/* <Projects /> */}
         <Blogs />
         <NewsLetter />
         {/* <Footer /> */}

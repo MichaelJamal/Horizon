@@ -15,7 +15,7 @@ const Footer = () => {
           </button>
 
           <p className="footer-text">
-            Many desktop publishing packages and web page editors now use are dolra Ipsum as their default.
+           Horizon Express: Your Logistics Partner. Trusted. Reliable. Efficient.
           </p>
 {/* 
           <ul className="social-list">
@@ -58,16 +58,13 @@ const Footer = () => {
             <button  className="footer-link">About</button>
           </li>
 
+
           <li>
-            <button  className="footer-link">Services</button>
+            <a href='/blogpage' className="footer-link">Blog</a>
           </li>
 
           <li>
-            <button className="footer-link">Blog</button>
-          </li>
-
-          <li>
-            <button className="footer-link">FAQ</button>
+            <a href='/faq' className="footer-link">FAQ</a>
           </li>
 
           <li>
@@ -83,43 +80,40 @@ const Footer = () => {
           </li>
 
           <li>
-            <button  className="footer-link">Warehouse</button>
+            <a href='/#service'  className="footer-link">Warehouse</a>
           </li>
 
           <li>
-            <button  className="footer-link">Air Freight</button>
+            <a href='/#service'   className="footer-link">Air Freight</a>
           </li>
 
           <li>
-            <button className="footer-link">Ocean Freight</button>
+            <a href='/#service'  className="footer-link">Ocean Freight</a>
           </li>
 
           <li>
-            <button className="footer-link">Road Freight</button>
+            <a href='/#service'   className="footer-link">Road Freight</a>
           </li>
 
           <li>
-            <button className="footer-link">Packaging</button>
+            <a href='/#service'   className="footer-link">Packaging</a>
           </li>
 
         </ul>
 
         <ul className="footer-list">
 
-          <li>
+        <li>
             <p className="footer-list-title">Community</p>
           </li>
 
+
           <li>
-            <button  className="footer-link">Business Consulting</button>
+            <a href='/contactpage'  className="footer-link">Business Consulting</a>
           </li>
 
           <li>
-            <button className="footer-link">Testimonials</button>
-          </li>
-
-          <li>
-            <button  className="footer-link">Track Your Shipment</button>
+            <a href='/track'  className="footer-link">Track Your Shipment</a>
           </li>
 
           <li>
@@ -127,7 +121,7 @@ const Footer = () => {
           </li>
 
           <li>
-            <button  className="footer-link">Terms & Condition</button>
+            <a href='/termsandconditions'  className="footer-link">Terms & Condition</a>
           </li>
 
         </ul>

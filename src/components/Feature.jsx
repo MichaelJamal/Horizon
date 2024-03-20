@@ -1,4 +1,6 @@
 import React from 'react';
+import { IoIosArrowRoundForward } from "react-icons/io";
+
 
 const Features = () => {
     const featureIcon1 = require("../images/feature-icon-1.png");
@@ -13,8 +15,7 @@ const Features = () => {
             <p className="section-subtitle">Estimation</p>
             <h2 className="h2 section-title">Has a wide range of solutions</h2>
             <p className="section-text">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry the standard dummy text ever
-              since the when an printer took.
+            Horizon Express offers an extensive array of customizable solutions, catering to diverse logistical needs and providing tailored services to optimize supply chain operations efficiently.
             </p>
           </div>
           <button className="btn">Read More</button>
@@ -25,13 +26,13 @@ const Features = () => {
               <div className="card-icon">
                 <img src={featureIcon1} width="72" height="91" alt="" />
               </div>
-              <h3 className="h3 card-title">Solutions and specialized</h3>
+              <h3 className="h3 card-title">Intermodal Solutions</h3>
               <p className="card-text">
-                Our aim is to optimize and improve your supply chain so that we can give you the best service
+              Horizon Express offers reliable, eco-friendly intermodal services globally. Tailored solutions ensure safe, efficient, and enjoyable shipping experiences for customers.
               </p>
-              <button  className="card-btn" aria-label="Read more">
-                <ion-icon name="arrow-forward"></ion-icon>
-              </button>
+              <a href='/inter'  className="card-btn" aria-label="Read more">
+              <IoIosArrowRoundForward />
+              </a>
             </div>
           </li>
           <li>
@@ -44,9 +45,9 @@ const Features = () => {
                 We provide multiple drop off and pickup locations so you don't have to worry. And you should not face
                 any kind...
               </p>
-              <button  className="card-btn" aria-label="Read more">
-                <ion-icon name="arrow-forward"></ion-icon>
-              </button>
+              <a  className="card-btn" aria-label="Read more">
+              <IoIosArrowRoundForward />
+              </a>
             </div>
           </li>
           <li>
@@ -59,9 +60,9 @@ const Features = () => {
                 A tracking number for the entire process. so that you can find the exact position. this process will
                 help you
               </p>
-              <button className="card-btn" aria-label="Read more">
-                <ion-icon name="arrow-forward"></ion-icon>
-              </button>
+              <a href='/tracking' className="card-btn" aria-label="Read more">
+              <IoIosArrowRoundForward />
+              </a>
             </div>
           </li>
         </ul>

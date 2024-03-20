@@ -4,6 +4,10 @@ const About = () => {
     const aboutImage1 = require("../images/about-banner.jpg");
     const aboutImage2 = require("../images/about-shape-1.png");
     const aboutImage3 = require("../images/about-shape-2.png");
+
+
+
+    
   return (
     <section className="section about" id="about" aria-label="about">
       <div className="container">
@@ -18,7 +22,7 @@ const About = () => {
           <p className="section-subtitle">Why Choose Us</p>
           <h2 className="h2 section-title">We Are Professional Logistics & cargo Agency</h2>
           <p className="section-text">
-            Sed ut perspiciatis unde omnis iste natus error volup tatem accusantium dolorem que laudantium, totam inventore.
+          At Horizon Express, we specialize in providing efficient and reliable logistics solutions tailored to your needs. With our extensive network and cutting-edge technology, we ensure seamless transportation and delivery of your goods.
           </p>
 
           <ul className="about-list">
@@ -35,7 +39,7 @@ const About = () => {
 
           </ul>
 
-          <button className="btn">Learn More</button>
+          <a href='/aboutpage' className="btn">Learn More</a>
 
         </div>
 

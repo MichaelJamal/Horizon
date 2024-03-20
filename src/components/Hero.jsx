@@ -8,10 +8,10 @@ export const Hero = () => {
       <div className="container">
         <div className="hero-content">
           <h2 className="h1 hero-title">
-            <span className="span">To Every</span> Direction
+            <span className="span">Global Delivery </span> Network
           </h2>
           <p className="hero-text">
-            There are many variations of passages of worem Ipsum available, but the majority
+          Welcome to Horizon Express - Your Trusted Logistics Partner!
           </p>
           <button className="btn-outline">View Services</button> 
           <img src={heroImage} width="116" height="116" loading="lazy" className="hero-shape shape-1" alt="shape 1" />

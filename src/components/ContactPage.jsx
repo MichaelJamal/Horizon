@@ -7,7 +7,7 @@ const ContactPage = () => {
   
 
   return (
-    <div className="bg-gray-100 py-36 flex items-center justify-center bg-fixed" id="contact">
+    <div className="bg-gray-100 mt-36 py-36 flex items-center justify-center bg-fixed" id="contact">
       <div className="rounded-lg  lg:m-10 p-16 bg-white shadow-lg">
         <div>
           <h1 className="text-5xl md:text-6xl">Get in Touch</h1>

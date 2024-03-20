@@ -38,23 +38,23 @@ const Navbar = () => {
               </a>
             </li>
             <li className="navbar-item">
-              <a href="#about" className="navbar-link" data-nav-link>
+              <a href="/aboutpage" className="navbar-link" data-nav-link>
                 <span>About</span>
-                <ion-icon name="chevron-forward"></ion-icon>
               </a>
             </li>
             <li className="navbar-item">
-              <a href="#service" className="navbar-link" data-nav-link>
-                <span>Service</span>
-                <ion-icon name="chevron-forward"></ion-icon>
-              </a>
-            </li>
-            <li className="navbar-item">
-              <a href="#blog"  className="navbar-link" data-nav-link>
+              <a href="/blogpage"  className="navbar-link" data-nav-link>
                 <span>Blog</span>
                 <ion-icon name="chevron-forward"></ion-icon>
               </a>
             </li>
+            <li className="navbar-item">
+              <a href="/track" className="navbar-link" data-nav-link>
+                <span>Track</span>
+                <ion-icon name="chevron-forward"></ion-icon>
+              </a>
+            </li>
+            
             <li className="navbar-item">
               <a href="/contactpage" className="navbar-link" data-nav-link>
                 <span>Contact Us</span>
@@ -76,7 +76,7 @@ const Navbar = () => {
         <button 
         onClick={toggle}
         >
-          <IoIosMenu className='text-white'/>
+          <IoIosMenu className='text-white text-5xl'/>
         </button>
         </div>
         <div className="overlay" ></div>
