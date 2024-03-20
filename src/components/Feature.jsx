@@ -18,7 +18,7 @@ const Features = () => {
             Horizon Express offers an extensive array of customizable solutions, catering to diverse logistical needs and providing tailored services to optimize supply chain operations efficiently.
             </p>
           </div>
-          <button className="btn">Read More</button>
+          {/* <button className="btn">Read More</button> */}
         </div>
         <ul className="feature-list grid-list">
           <li>
@@ -60,7 +60,7 @@ const Features = () => {
                 A tracking number for the entire process. so that you can find the exact position. this process will
                 help you
               </p>
-              <a href='/tracking' className="card-btn" aria-label="Read more">
+              <a href='/track' className="card-btn" aria-label="Read more">
               <IoIosArrowRoundForward />
               </a>
             </div>
